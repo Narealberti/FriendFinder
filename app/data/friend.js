@@ -370,4 +370,5 @@ var friendsArray = [
         ]
         }
         ]
-                    module.exports = friendsArray; 
+    ]
+module.exports = friendsArray; 
