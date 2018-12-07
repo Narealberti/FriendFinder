@@ -212,7 +212,7 @@
       console.log(user.answer)
 
       $.post("/api/friends", user, function(data) {
-       console.log(data)
+       console.log(data, "data")
        $("#display-name").html("<h3>" + data.nameMatch + "<h3>")
        $("#display-img").html("<img src=" + data.imgMatch + ">")
        $("#match-modal").modal("toggle")
